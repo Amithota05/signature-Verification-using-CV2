@@ -1,4 +1,4 @@
-# signature-Verification-using-CV2
+# Signature-Verification-using-CV2
 This project focuses on automating the process of signature verification using computer vision techniques with OpenCV, Flask, and Python. It compares two signature images, processes them to extract keypoints, and evaluates their similarity using the ORB (Oriented FAST and Rotated BRIEF) algorithm.
 
 The project uses Flask for the backend to handle image uploads and return the similarity results and an image showing the matching points. It processes the uploaded signature images by converting them into grayscale and applying binary thresholding before extracting the keypoints and descriptors to compare the signatures. The result includes the similarity percentage and an image with matching points, returned in Base64 format.
